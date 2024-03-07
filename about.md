@@ -10,6 +10,7 @@ She's hull number 215, built in California. These boats are still being made by 
  
 She's cutter rigged with a roller-furling 120% genoa and a 100% staysail.
 
+| Home Port | [Port Hadlock, WA](https://marinas.com/view/marina/95c674_Port_Hadlock_Marina_Port_Hadlock_WA_United_States) |
 | Length Overall | 34&prime; |
 | Beam | 10&prime; |
 | Draft | 4&prime; 11&Prime; |
