@@ -7,7 +7,7 @@ permalink: /about/
 S/V Pacific Loon is a 1991 [Pacific Seacraft 34](https://sailboat.guide/pacific-seacraft/34/) designed by [William Crealock](https://en.wikipedia.org/wiki/W._I._B._Crealock).
 
 <figure>
-	<img title="S/V Pacific Loon" alt="S/V Pacific Loon at anchor in Port Townsend Bay." srcset="https://svpacificloon.imgix.net/IMG_5012.jpg?w=740&dpr=1 1x, https://svpacificloon.imgix.net/IMG_5012.jpg?w=740&dpr=2 2x, https://svpacificloon.imgix.net/IMG_5012.jpg?w=740&dpr=3 3x" src="https://svpacificloon.imgix.net/IMG_5012.jpg?w=740">
+	<img class="raised" title="S/V Pacific Loon" alt="S/V Pacific Loon at anchor in Port Townsend Bay." srcset="https://svpacificloon.imgix.net/IMG_5012.jpg?w=740&dpr=1 1x, https://svpacificloon.imgix.net/IMG_5012.jpg?w=740&dpr=2 2x, https://svpacificloon.imgix.net/IMG_5012.jpg?w=740&dpr=3 3x" src="https://svpacificloon.imgix.net/IMG_5012.jpg?w=740">
 	<figcaption>S/V Pacific Loon at anchor in Port Townsend Bay.</figcaption>
 </figure>
 

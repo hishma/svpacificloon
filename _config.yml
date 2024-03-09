@@ -23,13 +23,10 @@ url: "https://svpacificloon.com" # the base hostname & protocol for your site, e
 
 # Build settings
 markdown: kramdown
-#theme: minima
-remote_theme: jekyll/minima
+theme: minima
+
 plugins:
   - jekyll-feed
-  
-minima:
-  skin: solarized
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
