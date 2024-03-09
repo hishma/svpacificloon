@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Ahoy!"
+date:   2024-03-06 08:36:12 -0800
+---
+
+Welcome aboard.
+
+<figure>
+	<img title="S/V Pacific Loon" alt="S/V Pacific Loon at anchor in Port Townsend Bay." srcset="https://svpacificloon.imgix.net/IMG_5012.jpg?w=740&dpr=1 1x, https://svpacificloon.imgix.net/IMG_5012.jpg?w=740&dpr=2 2x, https://svpacificloon.imgix.net/IMG_5012.jpg?w=740&dpr=3 3x" src="https://svpacificloon.imgix.net/IMG_5012.jpg?w=740">
+	<figcaption>S/V Pacific Loon at anchor in Port Townsend Bay.</figcaption>
+</figure>
+
