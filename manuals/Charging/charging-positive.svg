@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="1084" viewBox="0 0 1180 1084" role="img">
+<title>Pacific Loon — DC Charging System (Positive Side)</title>
+<desc>Solar, engine, and shore-power charge sources converge on the ANL takeoff, which feeds the house bank and, via the Duo Charge, the start battery.</desc>
+<style>
+  text { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .th { font-size: 14px; font-weight: 500; }
+  .ts { font-size: 12px; font-weight: 400; }
+  .tn { font-size: 11px; font-weight: 400; fill: #5F5E5A; font-style: italic; }
+  .grp { font-size: 14px; font-weight: 500; fill: #5F5E5A; font-style: italic; }
+  .arr { stroke: #73726c; stroke-width: 1.5; fill: none; }
+  .amber rect { fill: #FAEEDA; stroke: #BA7517; }
+  .amber .th { fill: #633806; } .amber .ts { fill: #854F0B; }
+  .teal rect { fill: #E1F5EE; stroke: #1D9E75; }
+  .teal .th { fill: #085041; } .teal .ts { fill: #0F6E56; }
+  .purple rect { fill: #EEEDFE; stroke: #7F77DD; }
+  .purple .th { fill: #3C3489; } .purple .ts { fill: #534AB7; }
+  .blue rect { fill: #E6F1FB; stroke: #378ADD; }
+  .blue .th { fill: #0C447C; } .blue .ts { fill: #185FA5; }
+  .gray rect { fill: #F1EFE8; stroke: #888780; }
+  .gray .th { fill: #444441; } .gray .ts { fill: #5F5E5A; }
+  .wg { font-size: 10px; font-weight: 400; fill: #6b6a64; }
+  .id { font-size: 10px; font-weight: 700; fill: #1a1a1a; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; }
+  .icn { fill: none; stroke: #3d3d3a; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+  .icnf { fill: #3d3d3a; }
+</style>
+<rect x="0" y="0" width="1180" height="1084" fill="#ffffff"/>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="#73726c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+
+  <!-- ICONS: drawn in a 24x24 box, origin top-left -->
+  <g id="ic-panel"><circle class="icn" cx="12" cy="12" r="5"/><line class="icn" x1="12" y1="1" x2="12" y2="4"/><line class="icn" x1="12" y1="20" x2="12" y2="23"/><line class="icn" x1="1" y1="12" x2="4" y2="12"/><line class="icn" x1="20" y1="12" x2="23" y2="12"/><line class="icn" x1="4.2" y1="4.2" x2="6.3" y2="6.3"/><line class="icn" x1="17.7" y1="17.7" x2="19.8" y2="19.8"/><line class="icn" x1="4.2" y1="19.8" x2="6.3" y2="17.7"/><line class="icn" x1="17.7" y1="6.3" x2="19.8" y2="4.2"/></g>
+
+
+  <g id="ic-breaker"><circle class="icnf" cx="4" cy="17" r="1.8"/><circle class="icnf" cx="20" cy="17" r="1.8"/><line class="icn" x1="4" y1="17" x2="18" y2="6"/><line class="icn" x1="20" y1="17" x2="20" y2="13"/></g>
+
+  <g id="ic-bus"><line class="icn" x1="2" y1="12" x2="22" y2="12"/><rect class="icn" x="6" y="8" width="12" height="8"/></g>
+
+  <g id="ic-battery"><line class="icn" x1="1" y1="12" x2="6" y2="12"/><line class="icn" x1="6" y1="5" x2="6" y2="19"/><line class="icn" x1="10" y1="9" x2="10" y2="15"/><line class="icn" x1="14" y1="5" x2="14" y2="19"/><line class="icn" x1="18" y1="9" x2="18" y2="15"/><line class="icn" x1="18" y1="12" x2="23" y2="12"/></g>
+
+  <g id="ic-alternator"><circle class="icn" cx="12" cy="12" r="10"/><path class="icn" d="M6 13 q3 -6 6 0 t6 0"/></g>
+
+
+  <g id="ic-plug"><path class="icn" d="M8 3 v5 M16 3 v5"/><path class="icn" d="M6 8 h12 v3 a6 6 0 0 1 -12 0 z"/><line class="icn" x1="12" y1="17" x2="12" y2="21"/></g>
+
+  <g id="ic-combiner"><line class="icn" x1="1" y1="14" x2="6" y2="14"/><circle class="icn" cx="8" cy="14" r="2.2" fill="#fff"/><line class="icn" x1="9.6" y1="12.5" x2="17" y2="6"/><circle class="icn" cx="18" cy="14" r="2.2" fill="#fff"/><line class="icn" x1="20.2" y1="14" x2="23" y2="14"/></g>
+
+  <g id="ic-diode"><path class="icnf" d="M8 5 L8 19 L18 12 Z"/><line class="icn" x1="18" y1="5" x2="18" y2="19"/><line class="icn" x1="4" y1="12" x2="8" y2="12"/><line class="icn" x1="18" y1="12" x2="21" y2="12"/></g>
+</defs>
+
+<text x="590" y="34" text-anchor="middle" style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:20px;font-weight:600;fill:#3d3d3a">Pacific Loon — DC Charging System (Positive Side)</text>
+
+<g transform="translate(0,56)">
+
+<!-- ============ SOLAR GROUP ============ -->
+<rect x="330" y="40" width="520" height="404" rx="12" fill="none" stroke="#B4B2A9" stroke-width="1" stroke-dasharray="4 4"/>
+<text class="grp" x="590" y="66" text-anchor="middle">Solar</text>
+<text class="ts" x="590" y="86" text-anchor="middle" fill="#854F0B">145W total, ~10A combined at the bank</text>
+
+<!-- left string -->
+<g class="amber"><rect x="370" y="106" width="180" height="64" rx="8" stroke-width="0.5"/>
+<use href="#ic-panel" x="380" y="114"/>
+<text class="th" x="465" y="126" text-anchor="middle" dominant-baseline="central">Solar Panel</text>
+<text class="ts" x="460" y="143" text-anchor="middle" dominant-baseline="central">50W, fwd of dodger</text>
+<text class="ts" x="460" y="158" text-anchor="middle" dominant-baseline="central">Voc 21.5V, Imp 2.8A</text></g>
+
+<g class="amber"><rect x="370" y="226" width="180" height="60" rx="8" stroke-width="0.5"/>
+<text class="th" x="460" y="246" text-anchor="middle" dominant-baseline="central">Solar Controller</text>
+<text class="ts" x="460" y="264" text-anchor="middle" dominant-baseline="central">Victron MPPT 75/10</text></g>
+
+<g class="gray"><rect x="370" y="340" width="180" height="60" rx="8" stroke-width="0.5"/>
+<use href="#ic-breaker" x="380" y="348"/>
+<text class="th" x="468" y="360" text-anchor="middle" dominant-baseline="central">Circuit Breaker</text>
+<text class="ts" x="460" y="378" text-anchor="middle" dominant-baseline="central">EGIS 4703-025 25A</text></g>
+
+<line x1="460" y1="172" x2="460" y2="224" class="arr" marker-end="url(#arrow)"/>
+<text class="wg" x="468" y="203" dominant-baseline="central">6mm²</text>
+<rect x="407" y="194" width="45" height="18" rx="0" fill="#ffffff" stroke="#c9c7bf" stroke-width="0.5"/><text class="id" x="448" y="203" text-anchor="end" dominant-baseline="central">SOL-1A</text>
+<line x1="460" y1="288" x2="460" y2="338" class="arr" marker-end="url(#arrow)"/>
+<text class="wg" x="468" y="319" dominant-baseline="central">10 AWG</text>
+<rect x="407" y="310" width="45" height="18" rx="0" fill="#ffffff" stroke="#c9c7bf" stroke-width="0.5"/><text class="id" x="448" y="319" text-anchor="end" dominant-baseline="central">SOL-1B</text>
+
+<!-- right string -->
+<g class="amber"><rect x="630" y="106" width="180" height="64" rx="8" stroke-width="0.5"/>
+<use href="#ic-panel" x="640" y="114"/>
+<text class="th" x="725" y="126" text-anchor="middle" dominant-baseline="central">Solar Panel</text>
+<text class="ts" x="720" y="143" text-anchor="middle" dominant-baseline="central">95W, bimini</text>
+<text class="ts" x="720" y="158" text-anchor="middle" dominant-baseline="central">Voc ~20V, Imp ~5.7A</text></g>
+
+<g class="amber"><rect x="630" y="226" width="180" height="60" rx="8" stroke-width="0.5"/>
+<text class="th" x="720" y="246" text-anchor="middle" dominant-baseline="central">Solar Controller</text>
+<text class="ts" x="720" y="264" text-anchor="middle" dominant-baseline="central">Victron MPPT 75/10</text></g>
+
+<g class="gray"><rect x="630" y="340" width="180" height="60" rx="8" stroke-width="0.5"/>
+<use href="#ic-breaker" x="640" y="348"/>
+<text class="th" x="728" y="360" text-anchor="middle" dominant-baseline="central">Circuit Breaker</text>
+<text class="ts" x="720" y="378" text-anchor="middle" dominant-baseline="central">EGIS 4703-025 25A</text></g>
+
+<line x1="720" y1="172" x2="720" y2="224" class="arr" marker-end="url(#arrow)"/>
+<text class="wg" x="728" y="203" dominant-baseline="central">6mm²</text>
+<rect x="667" y="194" width="45" height="18" rx="0" fill="#ffffff" stroke="#c9c7bf" stroke-width="0.5"/><text class="id" x="708" y="203" text-anchor="end" dominant-baseline="central">SOL-2A</text>
+<line x1="720" y1="288" x2="720" y2="338" class="arr" marker-end="url(#arrow)"/>
+<text class="wg" x="728" y="319" dominant-baseline="central">10 AWG</text>
+<rect x="667" y="310" width="45" height="18" rx="0" fill="#ffffff" stroke="#c9c7bf" stroke-width="0.5"/><text class="id" x="708" y="319" text-anchor="end" dominant-baseline="central">SOL-2B</text>
+
+<!-- solar drop into the hub -->
+<path d="M460 402 L460 552 L560 552 L560 580" class="arr" marker-end="url(#arrow)"/>
+<text class="wg" x="468" y="518" dominant-baseline="central">10 AWG</text>
+<rect x="407" y="509" width="45" height="18" rx="0" fill="#ffffff" stroke="#c9c7bf" stroke-width="0.5"/><text class="id" x="448" y="518" text-anchor="end" dominant-baseline="central">SOL-1C</text>
+<path d="M720 402 L720 552 L620 552 L620 580" class="arr" marker-end="url(#arrow)"/>
+<text class="wg" x="728" y="518" dominant-baseline="central">10 AWG</text>
+<rect x="667" y="509" width="45" height="18" rx="0" fill="#ffffff" stroke="#c9c7bf" stroke-width="0.5"/><text class="id" x="708" y="518" text-anchor="end" dominant-baseline="central">SOL-2C</text>
+
+<text class="tn" x="590" y="478" text-anchor="middle">Both breakers land on the EGIS 6100-004 bus,</text>
+<text class="tn" x="590" y="494" text-anchor="middle">which bolts to the ANL stud</text>
+
+<!-- ============ ENGINE GROUP ============ -->
+<rect x="40" y="522" width="330" height="330" rx="12" fill="none" stroke="#B4B2A9" stroke-width="1" stroke-dasharray="4 4"/>
+<text class="grp" x="205" y="548" text-anchor="middle">Engine</text>
+
+<g class="teal"><rect x="115" y="582" width="180" height="60" rx="8" stroke-width="0.5"/>
+<use href="#ic-alternator" x="125" y="590"/>
+<text class="th" x="213" y="602" text-anchor="middle" dominant-baseline="central">Alternator</text>
+<text class="ts" x="205" y="620" text-anchor="middle" dominant-baseline="central">120A</text></g>
+
+<g class="gray"><rect x="120" y="740" width="170" height="60" rx="8" stroke-width="0.5" stroke-dasharray="5 4"/>
+<text class="th" x="205" y="760" text-anchor="middle" dominant-baseline="central">Alt. Regulator</text>
+<text class="ts" x="205" y="778" text-anchor="middle" dominant-baseline="central">Balmar MC-612</text></g>
+
+<line x1="205" y1="642" x2="205" y2="736" class="arr" marker-start="url(#arrow)" marker-end="url(#arrow)" stroke-dasharray="4 3"/>
+<text class="tn" x="215" y="704">field control &amp; sense</text>
+<rect x="170" y="711" width="27" height="18" rx="0" fill="#ffffff" stroke="#c9c7bf" stroke-width="0.5"/><text class="id" x="193" y="720" text-anchor="end" dominant-baseline="central">REG</text>
+
+<line x1="295" y1="612" x2="498" y2="612" class="arr" marker-end="url(#arrow)"/>
+<rect x="383" y="586" width="27" height="18" rx="0" fill="#ffffff" stroke="#c9c7bf" stroke-width="0.5"/><text class="id" x="396" y="595" text-anchor="middle" dominant-baseline="central">ALT</text>
+
+<!-- ============ SHORE POWER GROUP ============ -->
+<rect x="775" y="522" width="365" height="330" rx="12" fill="none" stroke="#B4B2A9" stroke-width="1" stroke-dasharray="4 4"/>
+<text class="grp" x="957" y="548" text-anchor="middle">Shore Power</text>
+
+<g class="teal"><rect x="965" y="582" width="150" height="60" rx="8" stroke-width="0.5"/>
+<use href="#ic-plug" x="975" y="590"/>
+<text class="th" x="1048" y="602" text-anchor="middle" dominant-baseline="central">AC Inlet</text>
+<text class="ts" x="1040" y="620" text-anchor="middle" dominant-baseline="central">30A</text></g>
+
+<g class="teal"><rect x="790" y="582" width="150" height="60" rx="8" stroke-width="0.5"/>
+<text class="th" x="865" y="602" text-anchor="middle" dominant-baseline="central">Charger/Inverter</text>
+<text class="ts" x="865" y="620" text-anchor="middle" dominant-baseline="central">MS2012 100A</text></g>
+
+<g class="gray"><rect x="945" y="740" width="170" height="60" rx="8" stroke-width="0.5" stroke-dasharray="5 4"/>
+<use href="#ic-diode" x="947" y="748"/>
+<text class="th" x="1046" y="760" text-anchor="middle" dominant-baseline="central">Galvanic Isolator</text>
+<text class="ts" x="1030" y="778" text-anchor="middle" dominant-baseline="central">ProSafe One 30A</text></g>
+
+<line x1="963" y1="612" x2="942" y2="612" class="arr" marker-end="url(#arrow)"/>
+<line x1="1040" y1="642" x2="1040" y2="736" class="arr" marker-start="url(#arrow)" marker-end="url(#arrow)" stroke-dasharray="4 3"/>
+<text class="tn" x="1050" y="704">AC ground only</text>
+<rect x="1005" y="711" width="27" height="18" rx="0" fill="#ffffff" stroke="#c9c7bf" stroke-width="0.5"/><text class="id" x="1028" y="720" text-anchor="end" dominant-baseline="central">ISO</text>
+
+<line x1="788" y1="612" x2="682" y2="612" class="arr" marker-end="url(#arrow)"/>
+<rect x="722" y="586" width="27" height="18" rx="0" fill="#ffffff" stroke="#c9c7bf" stroke-width="0.5"/><text class="id" x="735" y="595" text-anchor="middle" dominant-baseline="central">CHG</text>
+
+<!-- ============ CENTRAL SPINE ============ -->
+<g class="purple"><rect x="500" y="582" width="180" height="60" rx="8" stroke-width="0.5"/>
+<use href="#ic-bus" x="520" y="590"/>
+<text class="th" x="602" y="602" text-anchor="middle" dominant-baseline="central">ANL Fuse</text>
+<text class="ts" x="590" y="620" text-anchor="middle" dominant-baseline="central">ANL 200A fuse stud</text></g>
+
+<line x1="590" y1="644" x2="590" y2="698" class="arr" marker-end="url(#arrow)"/>
+
+<g class="purple"><rect x="500" y="700" width="180" height="60" rx="8" stroke-width="0.5"/>
+<use href="#ic-battery" x="510" y="708"/>
+<text class="th" x="598" y="720" text-anchor="middle" dominant-baseline="central">House Bank</text>
+<text class="ts" x="590" y="738" text-anchor="middle" dominant-baseline="central">4 × GC2 AGM, 12V 440Ah</text></g>
+
+<line x1="590" y1="762" x2="590" y2="812" class="arr" marker-end="url(#arrow)"/>
+
+<g class="teal"><rect x="500" y="814" width="180" height="60" rx="8" stroke-width="0.5"/>
+<use href="#ic-combiner" x="510" y="822"/>
+<text class="th" x="598" y="834" text-anchor="middle" dominant-baseline="central">Battery Combiner</text>
+<text class="ts" x="590" y="852" text-anchor="middle" dominant-baseline="central">Balmar Duo Charge</text></g>
+
+<line x1="590" y1="876" x2="590" y2="926" class="arr" marker-end="url(#arrow)"/>
+<rect x="555" y="885" width="27" height="18" rx="0" fill="#ffffff" stroke="#c9c7bf" stroke-width="0.5"/><text class="id" x="568" y="894" text-anchor="middle" dominant-baseline="central">DUO</text>
+
+<g class="blue"><rect x="500" y="928" width="180" height="60" rx="8" stroke-width="0.5"/>
+<use href="#ic-battery" x="510" y="936"/>
+<text class="th" x="598" y="948" text-anchor="middle" dominant-baseline="central">Start Battery</text>
+<text class="ts" x="590" y="966" text-anchor="middle" dominant-baseline="central">Lifeline GPL-27, 745 CCA</text></g>
+
+<!-- footnotes -->
+<text class="tn" x="700" y="696">Solar feeds the bank side of the house switch —</text>
+<text class="tn" x="700" y="710">it charges regardless of switch position, and the</text>
+<text class="tn" x="700" y="724">breakers are the only solar disconnect.</text>
+
+<text class="tn" x="700" y="895">Start battery is charged only via the Duo Charge</text>
+<text class="tn" x="700" y="909">off the house bank — no separate solar feed.</text>
+</g>
+</svg>

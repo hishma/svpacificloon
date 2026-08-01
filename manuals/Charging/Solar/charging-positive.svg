@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="560" viewBox="0 0 760 560" role="img">
+<title>Charging circuit — positive side</title>
+<desc>Charge sources through protection to the house bank positive node.</desc>
+<style>
+  text { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .th { font-size: 14px; font-weight: 500; }
+  .ts { font-size: 12px; font-weight: 400; }
+  .tn { font-size: 11px; font-weight: 400; fill: #5F5E5A; font-style: italic; }
+  .arr { stroke: #73726c; stroke-width: 1.5; fill: none; }
+  .amber rect { fill: #FAEEDA; stroke: #BA7517; }
+  .amber .th { fill: #633806; } .amber .ts { fill: #854F0B; }
+  .teal rect { fill: #E1F5EE; stroke: #1D9E75; }
+  .teal .th { fill: #085041; } .teal .ts { fill: #0F6E56; }
+  .purple rect { fill: #EEEDFE; stroke: #7F77DD; }
+  .purple .th { fill: #3C3489; } .purple .ts { fill: #534AB7; }
+  .gray rect { fill: #F1EFE8; stroke: #888780; }
+  .gray .th { fill: #444441; } .gray .ts { fill: #5F5E5A; }
+</style>
+<rect x="0" y="0" width="760" height="560" fill="#ffffff"/>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="#73726c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+</defs>
+
+<text class="th" x="30" y="28" fill="#3d3d3a">Positive side — charge sources to bank</text>
+
+<g class="amber"><rect x="30" y="50" width="150" height="60" rx="8" stroke-width="0.5"/>
+<text class="th" x="105" y="69" text-anchor="middle" dominant-baseline="central">50W panel</text>
+<text class="ts" x="105" y="86" text-anchor="middle" dominant-baseline="central">Fwd of dodger</text>
+<text class="ts" x="105" y="101" text-anchor="middle" dominant-baseline="central">Voc 21.5V, Imp 2.8A</text></g>
+
+<g class="amber"><rect x="200" y="50" width="150" height="60" rx="8" stroke-width="0.5"/>
+<text class="th" x="275" y="69" text-anchor="middle" dominant-baseline="central">95W panel</text>
+<text class="ts" x="275" y="86" text-anchor="middle" dominant-baseline="central">Bimini</text>
+<text class="ts" x="275" y="101" text-anchor="middle" dominant-baseline="central">Voc ~20V, Imp ~5.7A</text></g>
+
+<g class="teal"><rect x="430" y="50" width="150" height="60" rx="8" stroke-width="0.5"/>
+<text class="th" x="505" y="72" text-anchor="middle" dominant-baseline="central">Alternator 120A</text>
+<text class="ts" x="505" y="91" text-anchor="middle" dominant-baseline="central">MC-612 regulated</text></g>
+
+<g class="teal"><rect x="600" y="50" width="150" height="60" rx="8" stroke-width="0.5"/>
+<text class="th" x="675" y="72" text-anchor="middle" dominant-baseline="central">Shore AC</text>
+<text class="ts" x="675" y="91" text-anchor="middle" dominant-baseline="central">30A galv. isolator</text></g>
+
+<line x1="105" y1="110" x2="105" y2="228" class="arr" marker-end="url(#arrow)"/>
+<line x1="275" y1="110" x2="275" y2="228" class="arr" marker-end="url(#arrow)"/>
+<line x1="675" y1="110" x2="675" y2="142" class="arr" marker-end="url(#arrow)"/>
+
+<g class="teal"><rect x="600" y="146" width="150" height="46" rx="8" stroke-width="0.5"/>
+<text class="th" x="675" y="163" text-anchor="middle" dominant-baseline="central">MS2012</text>
+<text class="ts" x="675" y="180" text-anchor="middle" dominant-baseline="central">100A charger</text></g>
+
+<rect x="18" y="214" width="344" height="164" rx="10" fill="none" stroke="#B4B2A9" stroke-width="0.5" stroke-dasharray="3 3"/>
+<text class="tn" x="28" y="230">at the MC-612 panel — ventilated, next to bank</text>
+
+<g class="amber"><rect x="30" y="240" width="150" height="58" rx="8" stroke-width="0.5"/>
+<text class="th" x="105" y="259" text-anchor="middle" dominant-baseline="central">MPPT 75/10</text>
+<text class="ts" x="105" y="277" text-anchor="middle" dominant-baseline="central">~3.5A out</text></g>
+
+<g class="amber"><rect x="200" y="240" width="150" height="58" rx="8" stroke-width="0.5"/>
+<text class="th" x="275" y="259" text-anchor="middle" dominant-baseline="central">MPPT 75/10</text>
+<text class="ts" x="275" y="277" text-anchor="middle" dominant-baseline="central">~6.6A out</text></g>
+
+<line x1="105" y1="298" x2="105" y2="322" class="arr" marker-end="url(#arrow)"/>
+<line x1="275" y1="298" x2="275" y2="322" class="arr" marker-end="url(#arrow)"/>
+
+<g class="gray"><rect x="30" y="326" width="150" height="46" rx="8" stroke-width="0.5"/>
+<text class="th" x="105" y="343" text-anchor="middle" dominant-baseline="central">285 breaker 25A</text>
+<text class="ts" x="105" y="360" text-anchor="middle" dominant-baseline="central">Surface mount</text></g>
+
+<g class="gray"><rect x="200" y="326" width="150" height="46" rx="8" stroke-width="0.5"/>
+<text class="th" x="275" y="343" text-anchor="middle" dominant-baseline="central">285 breaker 25A</text>
+<text class="ts" x="275" y="360" text-anchor="middle" dominant-baseline="central">Surface mount</text></g>
+
+<text class="tn" x="30" y="396">10 AWG throughout — makes the 25A rating honest wire protection</text>
+
+<line x1="105" y1="372" x2="105" y2="414" class="arr" marker-end="url(#arrow)"/>
+<line x1="275" y1="372" x2="275" y2="414" class="arr" marker-end="url(#arrow)"/>
+
+<g class="purple"><rect x="30" y="418" width="320" height="54" rx="8" stroke-width="0.5"/>
+<text class="th" x="190" y="437" text-anchor="middle" dominant-baseline="central">Positive bus bar</text>
+<text class="ts" x="190" y="456" text-anchor="middle" dominant-baseline="central">Terminal mount, bolts to ANL stud</text></g>
+
+<path d="M350 445 L426 445" class="arr" marker-end="url(#arrow)"/>
+
+<path d="M505 110 L505 250 L560 250 L560 414" class="arr" marker-end="url(#arrow)"/>
+<text class="tn" x="514" y="244">alternator output</text>
+
+<path d="M675 192 L675 414" class="arr" marker-end="url(#arrow)"/>
+
+<g class="purple"><rect x="430" y="418" width="320" height="54" rx="8" stroke-width="0.5"/>
+<text class="th" x="590" y="437" text-anchor="middle" dominant-baseline="central">ANL 200A takeoff stud</text>
+<text class="ts" x="590" y="456" text-anchor="middle" dominant-baseline="central">Lug assignments unconfirmed</text></g>
+
+<line x1="590" y1="472" x2="590" y2="500" class="arr" marker-end="url(#arrow)"/>
+
+<g class="purple"><rect x="360" y="504" width="390" height="42" rx="8" stroke-width="0.5"/>
+<text class="ts" x="555" y="525" text-anchor="middle" dominant-baseline="central">House bank — 4 × Lifeline GC2 6V AGM = 12V 440Ah</text></g>
+
+<text class="tn" x="30" y="500">House switch sits downstream of this node —</text>
+<text class="tn" x="30" y="514">solar charges regardless of switch position.</text>
+<text class="tn" x="30" y="534">Breakers are the only solar disconnect.</text>
+</svg>
