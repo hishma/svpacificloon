@@ -1,0 +1,171 @@
+Reply from Concorde Battery Corporation (Lifeline Batteries) to the GPL-4CT
+conditioning enquiry sent 4 August 2026.
+
+Received 7 August 2026, 09:42 PDT, from Jason M., Lifeline Batteries.
+
+Redacted for publication: personal phone numbers and the third-party addresses
+on the original routing headers have been removed. The technical content is
+verbatim and unaltered. Analysis and question-by-question breakdown:
+https://github.com/hishma/svpacificloon/wiki/Lifeline-Enquiry
+
+================================================================================
+REPLY
+================================================================================
+
+Hello,
+
+Thank you for the detailed information. You have clearly spent quite a bit of
+time working through the charging history and taking good measurements, and I
+agree that chronic undercharging/sulfation is a reasonable concern based on what
+you have described.
+
+I would start by separating the two 12V series strings exactly as you are
+proposing. At this point, testing them independently will tell us much more than
+measurements taken while the two strings remain paralleled.
+
+One clarification regarding the 6.66V / 6.02V readings: that voltage split
+definitely indicates a significant imbalance within String B, but I would not
+conclude from those readings alone that Position 4 has necessarily been held at
+6.66V by current flowing from String A. Because Positions 3 and 4 are in series,
+their individual voltages can divide unevenly while the total string voltage
+remains the same. Isolating the string and observing the individual battery
+voltages over time will be much more useful.
+
+For String A, I would proceed as follows:
+
+Isolate the two GPL-4CT batteries from the other string and all vessel loads.
+
+Perform a normal full charge first at the proper temperature-compensated
+Lifeline charging voltage.
+
+Once fully charged, perform one 8-hour conditioning charge at the
+temperature-corrected conditioning voltage.
+
+At approximately 70F, your calculation of approximately 15.58V for the 12V
+series pair is correct. Lifeline specifies an 8-hour conditioning charge after a
+normal full charge when attempting to recover capacity lost from extended
+partial-state-of-charge operation.
+
+If your Magnum limits the conditioning/equalization function to four hours,
+restarting the function to complete approximately eight total hours is
+reasonable, provided the voltage remains properly temperature compensated and
+the batteries are being monitored.
+
+After conditioning, allow the batteries to cool/rest and then perform a capacity
+test.
+
+I would not perform multiple conditioning cycles back-to-back simply based on
+voltage. Let the capacity test determine whether another cycle is justified. If
+the first conditioning cycle produces a meaningful improvement but capacity is
+still below where it needs to be, another conditioning/retest cycle can be
+attempted. If repeated conditioning produces little or no improvement,
+additional high-voltage charging is unlikely to restore useful capacity.
+
+Also, one correction regarding the proposed 110Ah capacity test: the series pair
+is still a 220Ah battery bank. Connecting two 220Ah 6V batteries in series
+doubles the voltage but does not halve the Ah capacity.
+
+Lifeline's preferred capacity test is a controlled constant-current discharge.
+Our published procedure calls for bringing the battery fully charged and
+temperature stabilized, then discharging at the specified test current to the
+appropriate end voltage and comparing the discharge time against the battery's
+published rating. Capacity below approximately 80% is considered degraded and is
+a reason to attempt conditioning; below approximately 50% generally indicates
+replacement should be considered.
+
+Regarding String B, I would definitely test it before declaring either battery
+scrap.
+
+After separating the string, fully charge it if it can be charged normally,
+disconnect it completely, and record the individual battery voltages after
+approximately 24 hours. Continue recording them over several days.
+
+A healthy Lifeline AGM has very low self-discharge, so a battery that shows a
+substantial continuing voltage decline while completely isolated is much more
+concerning than one that simply stabilizes at a low open-circuit voltage.
+
+The 6.02V reading on Position 3 alone is not enough for me to diagnose an
+internal short. Severe sulfation and imbalance can produce some unusual
+individual battery voltages when batteries are connected in series. If Position
+3 continues losing voltage rapidly after being fully charged and completely
+disconnected, however, that would point us toward an internal problem rather
+than ordinary sulfation.
+
+Likewise, I would not automatically discard Position 4 because of the 6.66V
+reading. The more important questions are whether it will accept a normal
+charge, hold open-circuit voltage independently, and deliver useful capacity.
+
+Regarding temperature during conditioning, there is always more heat generation
+during an elevated-voltage conditioning charge, so ventilation and monitoring
+are important. Lifeline's technical information identifies thermal runaway as a
+potential VRLA hazard when charging voltage and/or battery temperature becomes
+excessive and emphasizes proper voltage, temperature compensation, and
+ventilation.
+
+If a battery begins heating rapidly relative to the others, shows abnormal
+swelling, vents heavily, develops an unusual odor, or its temperature continues
+climbing rather than stabilizing, discontinue the conditioning charge and
+investigate before continuing. Our technical procedures also use 130F / 55C as a
+stop point during certain recovery charging procedures, so I would certainly not
+allow a battery to approach that temperature.
+
+Running String A alone as a 12V, 220Ah house bank is perfectly acceptable
+electrically provided the batteries prove serviceable through testing. You will
+simply have half of the original bank capacity, so your depth of discharge will
+increase substantially unless your consumption is reduced accordingly.
+
+Your approximately 100A charger is also not excessive for a 220Ah Lifeline bank.
+Lifeline AGMs have very high charge acceptance, and adequate charging current is
+beneficial in deep-cycle applications.
+
+Regarding the Magnum's 180-minute absorption limitation, I would not replace an
+otherwise functional charger solely because it cannot provide four hours
+automatically. The 2-, 3-, and 4-hour absorption recommendations correspond to
+increasing depth of discharge, but the more meaningful indication of full charge
+is acceptance current. Lifeline considers the battery fully charged when charge
+current has tapered to approximately 0.5A per 100Ah of rated capacity at the
+proper absorption voltage.
+
+For your original 440Ah bank, that target is approximately 2.2A. For a single
+220Ah string, it would be approximately 1.1A.
+
+If your Magnum reaches that acceptance level before the timer expires, there is
+no advantage in forcing the battery to remain in absorption merely to satisfy a
+clock. Conversely, if it reaches its 180-minute limit while the batteries are
+still accepting substantially more than the target current, the bank has not
+completed the recharge.
+
+The very short bulk period you observed after drawing the bank to 12.5V is
+another reason I would separate the strings before drawing conclusions. With the
+imbalance presently visible, the charger can reach its voltage threshold because
+one battery or one string rises rapidly even though the bank as a whole has
+accepted very little energy.
+
+For routine conditioning after you establish what capacity remains, I would base
+the interval primarily on how the boat is actually used. Lifeline's current
+guidance describes approximately four hours every three to four weeks for
+applications that routinely cannot achieve complete recharge.
+
+Given the history you described, I would concentrate first on recovering and
+testing the bank rather than immediately establishing a recurring conditioning
+schedule. Once you know what String A and String B actually deliver
+independently, you can make a much better decision about whether either string
+is worth keeping in service and how aggressive the maintenance routine needs to
+be.
+
+Best,
+Jason M.
+Lifeline Batteries
+1-800-527-3224
+www.lifelinebatteries.com
+
+*As a disclaimer, we are distributor of lead-acid AGM & lithium products and not
+a licensed electrical installer. This information is for advice purposes only,
+and all research should be done prior to purchase and installation. Qualified or
+certified technicians, and/or electrical technicians should be consulted or
+employed to install electrical components.
+
+================================================================================
+The outgoing enquiry it replies to is reproduced in full at
+https://github.com/hishma/svpacificloon/wiki/Lifeline-Enquiry
+================================================================================
